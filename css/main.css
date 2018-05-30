@@ -1,0 +1,48 @@
+body {
+	background-color: #3c261c;
+	margin: 0;
+}
+#main {
+	width: 80%;
+	margin-left: 10%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.options {
+	color: #644f45;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+a.presentation {
+	color: #cbb083;
+	padding: 2px 5px;
+}
+
+img#main-img {
+	border: 3px solid #f0dabc;
+}
+
+p {
+	color: #f0dabc;
+}
+
+input {
+	background-color: #452f23;
+	border: none;
+}
+
+button {
+	background-color: #8c4415;
+	border: none;
+}
+
+div.component {
+	padding: 25px;
+	background-color: #452f23;
+	display: inline-block;
+	width: 27%;
+}
