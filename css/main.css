@@ -46,14 +46,14 @@ a.options {
 }
 
 #presentation-div span {
-	font-size: 2em;
 	color: #e7d3c1;
-	/* text-decoration: underline; */
+	font-family: 'Roboto Slab', serif;
+	font-size: 2em;
 }
 
 #presentation-ul {
 	text-align: right;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 #presentation-ul li {
@@ -73,6 +73,9 @@ a.presentation:hover {
 #webdesign {
 	color: #e7d3c1;
 	margin-left: 20px;
+	letter-spacing: 1.7px;
+	font-size: 0.9em;
+	font-weight: lighter;
 }
 
 img#main-img {
@@ -154,7 +157,7 @@ div.component p {
 }
 
 #pointer input {
-	background-color: #452f23;
+	background-color: #4e372e;
 	border: none;
 	height: 18px;
 }
