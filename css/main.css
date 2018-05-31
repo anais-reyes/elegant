@@ -3,8 +3,8 @@ body {
 	margin: 0;
 }
 div#main {
-	width: 80%;
 	margin-left: 10%;
+	width: 80%;
 }
 
 #options-ul {
@@ -12,8 +12,14 @@ div#main {
 }
 
 #options-ul li {
-	list-style-type: none;
 	display: inline-block;
+	list-style-type: none;
+	padding: 0 5px;
+}
+
+#options-ul li:nth-child(2) {
+	border-left: 0.5px solid #644f45;
+	border-right: 0.5px solid #644f45;
 }
 
 a {
@@ -27,38 +33,39 @@ a.options {
 	margin-right: 4px;
 }
 
-.nav {
-	width: 49%;
+div.nav {
 	display: inline-block;
+	width: 49%;
 }
 
-.nav span {
+div.nav span {
 	margin-left: 20px;
+	border-bottom: 0.8px solid #f6e1cd;
 }
 
-#logo {
-	margin-left: 60px;
+img#logo {
+	margin-left: 70px;
 }
 
-#presentation-div {
+div#presentation-div {
 	border-bottom: 1px solid #452f23;
-	margin-bottom: 0;
+	margin-bottom: 5px;
 }
 
-#presentation-div span {
+div#presentation-div span {
 	color: #e7d3c1;
 	font-family: 'Roboto Slab', serif;
 	font-size: 2em;
 }
 
-#presentation-ul {
-	text-align: right;
+ul#presentation-ul {
 	margin-bottom: 0px;
+	text-align: right;
 }
 
 #presentation-ul li {
-	list-style-type: none;
 	display: inline-block;
+	list-style-type: none;
 }
 
 a.presentation {
@@ -72,15 +79,15 @@ a.presentation:hover {
 
 #webdesign {
 	color: #e7d3c1;
-	margin-left: 20px;
-	letter-spacing: 1.7px;
 	font-size: 0.9em;
 	font-weight: lighter;
+	letter-spacing: 1.7px;
+	margin-left: 20px;
 }
 
 img#main-img {
-	margin-top: 20px;
 	border: 3px solid #f0dabc;
+	margin-top: 20px;
 }
 
 p {
@@ -94,16 +101,16 @@ p.main-text {
 }
 
 div.component {
-	padding: 25px;
 	background-color: #452f23;
 	display: inline-block;
 	margin-right: 13px;
+	padding: 25px;
 	width: 29%;
 }
 
 div.component img {
-	float: left;
 	border: 4px solid #362514;
+	float: left;
 	margin-right: 20px;
 }
 
@@ -112,11 +119,11 @@ div.component p {
 }
 
 #pointer {
-	width: 1000px;
+	background: #372319;
 	height: 80px;
 	margin: 20px 20px 20px 240px;
 	position: relative;
-	background: #372319;
+	width: 1000px;
 }
 
 #wrapper {
@@ -131,29 +138,29 @@ div.component p {
 }
 
 #pointer:before {
-	content: '';
-	position: absolute;
-	right: -27px;
-	bottom: 0;
-	width: 0;
-	height: 0;
 	border-left: 27px solid #372319;
 	border-right: 0px solid transparent;
 	border-bottom: 39px solid transparent;
 	border-top: 41px solid transparent;
+	bottom: 0;
+	content: '';
+	height: 0;
+	right: -27px;
+	position: absolute;
+	width: 0;
 }
 
 #pointer:after {
-	content: '';
-	position: absolute;
-	left: -27px;
-	bottom: 0;
-	width: 0;
-	height: 0;
 	border-left: 0px solid transparent;
 	border-right: 27px solid #372319;
 	border-bottom: 39px solid transparent;
 	border-top: 41px solid transparent;
+	bottom: 0;
+	content: '';
+	height: 0;
+	left: -27px;
+	position: absolute;
+	width: 0;
 }
 
 #pointer input {
